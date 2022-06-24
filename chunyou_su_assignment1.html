@@ -5,8 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 1</title>
+    <link rel="stylesheet" href="chunyou_su_assignment1.css" />
   </head>
   <body>
-    
+    <div class="wrapper">
+      <table>
+        <tr>
+          <th>Student Name</th>
+          <th>Age</th>
+          <th>Phone #</th>
+          <th>Address</th>
+        </tr>
+
+        <tr>
+          <td>John</td>
+          <td>19</td>
+          <td>455-983-0903</td>
+          <td>123 Ave. San Francisco, CA, 94011</td>
+        </tr>
+
+        <tr>
+          <td>Alex</td>
+          <td>21</td>
+          <td>455-983-0912</td>
+          <td>456 Rd, San Francisco, CA, 94012</td>
+        </tr>
+
+        <tr>
+          <td>Josh</td>
+          <td>22</td>
+          <td>455-345-0912</td>
+          <td>789 Dr, Newark, CA, 94016</td>
+        </tr>
+
+        <tr>
+          <td>Matt</td>
+          <td>23</td>
+          <td>321-345-0912</td>
+          <td>223 Dr, Sunnyvale, CA, 94016</td>
+        </tr>
+      </table>
+
+      <div class="searchbar-container">
+        <div class="search-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </div>
+
+        <input type="text" placeholder="Search" />
+
+        <div class="mic-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi bi-mic"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"
+            />
+            <path
+              d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="list-container">
+        <ol>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Java</li>
+        </ol>
+
+        <ul>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>CSS</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Java</li>
+        </ul>
+      </div>
+
+      <select name="cities" class="city-dropdown">
+        <option value="newark">Newark</option>
+        <option value="santa clara">Santa Clara</option>
+        <option value="union city">Union City</option>
+        <option value="daly city">Daly City</option>
+        <option value="san jose">San Jose</option>
+      </select>
+    </div>
   </body>
 </html>
